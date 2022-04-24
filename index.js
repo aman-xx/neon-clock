@@ -8,9 +8,9 @@ setInterval(function () {
   let m = new Date().getMinutes();
   let s = new Date().getSeconds();
 
-  let hr_dot = document.querySelector('.hr_dot');
-  let min_dot = document.querySelector('.min_dot');
-  let sec_dot = document.querySelector('.sec_dot');
+  let hr_dot = document.querySelector(".hr_dot");
+  let min_dot = document.querySelector(".min_dot");
+  let sec_dot = document.querySelector(".sec_dot");
 
   if (h <= 12) {
     ampm.innerHTML = "AM";
